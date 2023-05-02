@@ -19,6 +19,10 @@ export const TimeStamp = styled.p`
     @media screen and (max-width: 600px) {
         font-size: 5rem;
     }
+
+    @media screen and (max-width: 400px) {
+        font-size: 3rem;
+    }
 `
 
 export const Greeting = styled.p`
@@ -29,5 +33,9 @@ export const Greeting = styled.p`
 
     @media screen and (max-width: 600px) {
         font-size: 3rem;
+    }
+
+    @media screen and (max-width: 400px) {
+        font-size: 2rem;
     }
 `
