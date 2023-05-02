@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { WeatherContainer, Temp, City } from './WeatherStyles';
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=veracruz&units=imperial&appid=b4072c59e7366eba4106be23b6cf5807'
+const url = `https://api.openweathermap.org/data/2.5/weather?q=veracruz&units=imperial&appid=${process.env.REACT_APP_API_KEY}`
 
 const Weather = () => {
   const [data, setData] = useState(null)
